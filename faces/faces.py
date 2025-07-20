@@ -1,4 +1,4 @@
-ef main():
+def main():
   sentence  = input ("sentence:")
   converted_sentence = convert(sentence)
  
