@@ -14,3 +14,6 @@ dollars_to_float, will accept a str as input and return the amount as a float. F
 
 percent_to_float, will accept a str as input remove the trailing %, and return the percentage as a float. For instance, given 15% as input, it should return 0.15.
 
+Problem Set 1 
+
+deep.py will implement a program that prompts the user for the answer to the Great Question of Life, the Universe and Everything, outputting Yes if the user inputs 42 or (case-insensitively) forty-two or forty two. Otherwise output No.
