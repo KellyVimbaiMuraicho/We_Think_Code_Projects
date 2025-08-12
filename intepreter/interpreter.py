@@ -19,7 +19,9 @@ match y_operator:
     case "/":
         result = x / z
     case _:
-        # This case will handle any invalid operator
+# This case will handle any invalid operator
         result = "Error: Invalid operator" 
-print(f"{result:.1f}")
+
+# This part of the code is going to print the answer to one decimal place.
+print(f"{result:.1f}") 
 

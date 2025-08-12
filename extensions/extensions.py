@@ -1,7 +1,7 @@
 
 file_name = input("What is your filename ?")
  
-match file_name.rsplit(".", 1):# splits the file_name string from the right, at the first occurrence of a period (.).
+match file_name.rsplit(".", 1):# splits the file_name string from the right, at the first occurrence of a period (.)
     case [_, "gif"]:  # Matches a list with two elements, with the second being "gif"
         print("image/gif")
     case [_, "jpg"]:
