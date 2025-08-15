@@ -21,5 +21,5 @@ def replace_camel_case():
     # 2. Return the new string after the loop has finished
     return new_user_camel_case
 
-# You need to call the function to run it and print the result
+#  calls the function to run it and print the result
 print(replace_camel_case())
