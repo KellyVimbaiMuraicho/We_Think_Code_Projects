@@ -32,4 +32,4 @@ meal.py implements a program that prompts the user for a time and outputs whethe
 
 Problem set 2 
 
-camel.py, implement a program that prompts the user for the name of a variable in camel case and outputs the corresponding name in snake case. Assume that the user’s input will indeed be in camel case.
+camel.py, implements a program that prompts the user for the name of a variable in camel case and outputs the corresponding name in snake case. It assumes that the user’s input will indeed be in camel case.
