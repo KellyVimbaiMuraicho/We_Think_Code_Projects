@@ -2,6 +2,7 @@
 
 def main():
     plate = input("Plate: ")
+    plate = plate.upper() # this is going to convert all input in uppercase.git
     if is_valid(plate):
         print("Valid")
     else:
@@ -11,6 +12,8 @@ def is_valid(s):
     # Checks length
     if len(s) < 2 or len(s) > 6:
         return False
+    
+    
 
     # Checks first two characters
     if not (s[0].isalpha() and s[1].isalpha()):
