@@ -8,15 +8,15 @@ def main():
         print("Invalid")
 
 def is_valid(s):
-    # Rule 1: Check length
+    # Checks length
     if len(s) < 2 or len(s) > 6:
         return False
 
-    # Rule 2: Check first two characters
+    # Checks first two characters
     if not (s[0].isalpha() and s[1].isalpha()):
         return False
 
-    # Rule 3: Check for numbers in the middle and starting with '0'
+    # Checks for numbers in the middle and starting with '0'
     found_number = False
     for i, char in enumerate(s):
         if char.isdigit():
@@ -25,10 +25,10 @@ def is_valid(s):
                 if not s[i-1].isdigit():
                     return False
         elif found_number:
-            # Rule: letter appears after a number
+            # checks letter appears after a number
             return False
 
-    # Rule 4: Check for punctuation
+    #  Checks for punctuation
     for char in s:
         if not char.isalnum():
             return False
