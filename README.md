@@ -38,4 +38,6 @@ coke.py, implements a program that prompts the user to insert a coin, one at a t
 
 twttr.py, implements a program that prompts the user for a str of text and then outputs that same text but with all vowels (A, E, I, O, and U) omitted, whether inputted in uppercase or lowercase.
 
-plates.py, implements a program that prompts the user for a vanity plate and then outputs Valid if meets all of the requirements or Invalid if it does not. Assuming that any letters in the user’s input will be uppercase. 
+plates.py, implements a program that prompts the user for a vanity plate and then outputs Valid if meets all of the requirements or Invalid if it does not. Assuming that any letters in the user’s input will be uppercase.
+
+nutrition.py, implements a program that prompts consumers users to input a fruit (case-insensitively) and then outputs the number of calories in one portion of that fruit, per the FDA’s poster for fruits, which is also available as text. Capitalization aside, assume that users will input fruits exactly as written in the poster (e.g., strawberries, not strawberry). Ignore any input that isn’t a fruit.
