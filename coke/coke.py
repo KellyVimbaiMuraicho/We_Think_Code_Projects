@@ -19,5 +19,5 @@ def amount_due():
         except ValueError:
             print("Invalid input. Please enter a valid amount.")
 
-# Call the function to run the program
+
 amount_due()
