@@ -1,31 +1,14 @@
-<<<<<<< HEAD
-# prompt the user for a greeting.
-greeting = input("May you please greet us today !")
+# Get the user's greeting
+greeting = input("May you please greet us today! ")
 
-#Converts user's answer to lowercase and removes any leading/trailing whitespace.
-=======
-# prompt user greeting 
-greeting = input("May you please greet us today !")
-
-#Convert the user's answer to lowercase and remove any leading/trailing whitespace.
->>>>>>> ded301c5e5a09321370a090b2b35c7eaf7e59558
+# Convert the greeting to lowercase and remove extra whitespace
 given_greeting = greeting.lower().strip()
 
+# Check the conditions in the correct order
 if given_greeting == "hello":
     print("$0")
-<<<<<<< HEAD
-    
-elif given_greeting[0] == "h":
+elif given_greeting.startswith("h"):
     print("$20")
-    
 else:
     print("$100")
-    
-=======
 
-elif given_greeting[0] == "h":
-    print("$20")
-
-else:
-    print("$100")
->>>>>>> ded301c5e5a09321370a090b2b35c7eaf7e59558
